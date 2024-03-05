@@ -1,6 +1,33 @@
-h1 {
+h1,
+h2 {
   font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-size: larger;
+}
+.hero {
+  background-color: bisque;
+  text-align: center;
+  padding: 160px 20px;
 }
 p {
   font-family: "Poppins", sans-serif;
+  font-size: smaller;
+  margin-bottom: 100px;
+}
+a {
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  background-color: rgb(255, 203, 157);
+  padding: 14px 30px;
+}
+a:hover {
+  color: white;
+}
+
+#heart-icon {
+  font-size: 14px;
+  color: rgb(255, 99, 99);
 }
