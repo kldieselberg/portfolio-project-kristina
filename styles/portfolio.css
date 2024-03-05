@@ -34,3 +34,6 @@ a:hover {
 .row {
   margin: 70px 0px;
 }
+div {
+  display: block;
+}
