@@ -1,6 +1,13 @@
+:root {
+  --branding-color: bisque;
+  --secondary-color: rgb(255, 203, 157);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 h1,
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
 }
 
 h2 {
@@ -8,7 +15,7 @@ h2 {
   margin-bottom: 50px;
 }
 .hero {
-  background-color: bisque;
+  background-color: var(--branding-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -41,4 +48,9 @@ div {
 }
 .container {
   display: flex;
+}
+.btn {
+  background-color: white;
+  border: 2px;
+  border-color: var(--secondary-color);
 }
