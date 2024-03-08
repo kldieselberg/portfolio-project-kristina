@@ -11,46 +11,57 @@ h2 {
 }
 
 h2 {
-  font-size: 14px;
-  margin-bottom: 50px;
+  font-size: 45px;
 }
 .hero {
   background-color: var(--branding-color);
   text-align: center;
   padding: 160px 20px;
 }
-p {
+.hero h2 {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.hero p {
   font-family: "Poppins", sans-serif;
-  font-size: medium;
+  font-size: 16px;
   margin-bottom: 0px;
 }
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+.row {
+  margin: 70px 0;
+}
+#heart-icon {
+  font-size: 11px;
+  color: rgb(255, 99, 99);
+}
 
-a {
+.btn-branding {
   border-radius: 4px;
   color: black;
   font-size: 16px;
   background-color: rgb(255, 203, 157);
   padding: 10px 20px;
 }
-a:hover {
+.btn-branding:hover {
   color: white;
 }
-
-#heart-icon {
-  font-size: 11px;
-  color: rgb(255, 99, 99);
-}
-.row {
-  margin: 70px 0px;
-}
-div {
-  display: block;
-}
-.container {
-  display: flex;
-}
-.btn {
+.btn-branding-outline {
+  color: var(--secondary-color);
   background-color: white;
-  border: 2px;
+  border: 1px solid;
   border-color: var(--secondary-color);
+}
+.project-description {
+  padding: 0px 50px;
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0px;
+    text-align: center;
+  }
 }
