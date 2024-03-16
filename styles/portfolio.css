@@ -26,6 +26,9 @@ h2 {
 .about-section {
   padding: 160px 20px;
 }
+.about-section-content h1 {
+  margin-top: 50px;
+}
 .hero {
   background-color: var(--branding-color);
   text-align: center;
@@ -91,4 +94,7 @@ img {
   border: 1px solid;
   border-color: var(--secondary-color);
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.work {
+  border: 5px solid;
 }
