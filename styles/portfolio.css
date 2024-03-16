@@ -90,11 +90,11 @@ p {
   img {
     margin-top: 30px;
   }
-  footer .contact-box {
-    padding: 30px;
-  }
   h4 {
-    font: 24px;
+    font: 18px;
+  }
+  .btn {
+    font-size: 14px;
   }
 }
 
