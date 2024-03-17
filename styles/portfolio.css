@@ -130,16 +130,17 @@ nav li.active a {
 footer {
   margin: 60px 0;
 }
-footer .email-link {
+.email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
   text-align: center;
 }
-footer .email-link:hover {
+.email-link:hover {
   color: var(--secondary-color);
+  text-decoration: none;
 }
-footer .social-links a {
+.social-links a {
   margin: 0 20px;
   color: var(--secondary-color);
   background-color: var(--branding-color);
@@ -148,7 +149,7 @@ footer .social-links a {
   font-size: 20px;
   transition: all 100ms ease-in-out;
 }
-footer .social-links a:hover {
+.social-links a:hover {
   color: white;
   background-color: var(--secondary-color);
 }
